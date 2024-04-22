@@ -9,7 +9,6 @@
 }
 
 :root {
-  --color-secondary-900: rgb(17, 24, 39);
   --color-secondary-800: rgb(31, 72, 148,1);
   --color-secondary-700: rgb(55, 65, 81);
   --color-secondary-600: rgb(75, 85, 99);
@@ -38,7 +37,7 @@
   --border-radius-tiny: 3px;
   --border-radius-sm: 5px;
   --border-radius-md: 7px;
-  --border-radius-lg: 9px;
+  --border-radius-lg: 8px;
 
   --color-success: rgb(0, 192, 115);
   --color-warning: rgb(255, 153, 0);
@@ -67,7 +66,8 @@ html {
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
-  margin-top:5rem;
+  margin-top:5
+  rem;
   row-gap: 5rem;
 }
 .btn_primary{
@@ -142,5 +142,6 @@ html {
 @media screen and (min-width: 1092px) {
   .frams {
     grid-template-columns: repeat(3,1fr);
+    background-color: beige;
   }
 }
