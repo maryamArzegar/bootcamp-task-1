@@ -142,6 +142,5 @@ html {
 @media screen and (min-width: 1092px) {
   .frams {
     grid-template-columns: repeat(3,1fr);
-    background-color: beige;
   }
 }
